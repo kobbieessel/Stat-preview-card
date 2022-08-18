@@ -58,10 +58,10 @@ span {
   /* padding: 0 20px; */
   margin-bottom: 70px;
   font-weight: 300;
-  line-height: 1.6;
+  line-height: 2;
 }
 .stats-container {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin: 30px 30px 0 20px;
   text-align: left;
   line-height: 1.2;
@@ -72,14 +72,26 @@ span {
 }
 .stats-container h1 {
   color: var(--main-heading-stats);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 .stats-container p {
   color: var(--stat-headings);
-  font-weight: 100;
-  font-size: 0.6rem;
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
 }
-
+.companies-stat {
+  /* border: 1px solid white; */
+  margin-right: 60px;
+}
+.templates-stat {
+  /* border: 1px solid white; */
+  margin-right: 60px;
+}
+.queries-stat {
+  /* border: 1px solid white; */
+  margin-right: 60px;
+}
 /* image container */
 .image-container {
   position: relative;
@@ -103,9 +115,8 @@ img {
 .attribution {
   font-size: 11px;
   text-align: center;
-  color: var(--main-heading-stats);
+  /* color: var(--main-heading-stats); */
 }
 .attribution a {
-  color: var(--Soft-violet-accent);
-  text-align: center;
+  color: hsl(228, 45%, 44%);
 }
