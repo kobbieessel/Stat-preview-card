@@ -138,16 +138,20 @@ a {
   }
   .text-discription #main-head {
     color: var(--main-heading-stats);
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: 700;
     margin-bottom: 20px;
+  }
+  span {
+    color: var(--Soft-violet-accent);
+    font-size: 1.9rem;
   }
   .text-discription p {
     font-size: 1rem;
     color: var(--main-paragraph);
     margin-bottom: 30px;
     font-weight: 300;
-    line-height: 1.8;
+    line-height: 2;
   }
   .stats-container {
     margin: 10 auto;
@@ -171,5 +175,9 @@ a {
   a {
     text-align: center;
     font-size: 11px;
+  }
+  .image-container {
+    position: relative;
+    width: 350px;
   }
 }
