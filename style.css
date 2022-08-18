@@ -107,7 +107,7 @@ img {
   opacity: 0.3;
   background-color: var(--Soft-violet-accent);
 }
-
+/*Footer section*/
 .attribution p,
 a {
   font-size: 11px;
@@ -117,6 +117,7 @@ a {
   color: hsl(228, 45%, 44%);
 }
 
+/*Phone display*/
 @media all and (max-width: 600px) {
   body {
     background-color: var(--main-background);
