@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&family=Lexend+Deca:wght@200;300;700&display=swap");
+
+:root {
+  --main-background: hsl(233, 47%, 7%);
+  --card-background: hsl(244, 38%, 16%);
+  --Soft-violet-accent: hsl(277, 64%, 61%);
+  --main-heading-stats: hsl(0, 0%, 100%);
+  --main-paragraph: hsla(0, 0%, 100%, 0.75);
+  --stat-headings: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background-color: var(--main-background);
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* main container */
+main {
+  display: flex;
+  margin: 30px 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* text-container */
+.text-container {
+  width: 600px;
+  background-color: var(--card-background);
+  padding: 60px;
+}
+.text-discription {
+  margin: 20px;
+  /* border: 1px solid red; */
+}
+.text-discription #main-head {
+  color: var(--main-heading-stats);
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+span {
+  color: var(--Soft-violet-accent);
+  font-size: 2.5rem;
+}
+.text-discription p {
+  /* border: 1px solid white; */
+  font-size: 1rem;
+  color: var(--main-paragraph);
+  /* padding: 0 20px; */
+  margin-bottom: 70px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+.stats-container {
+  border: 1px solid white;
+  margin: 30px 30px 0 20px;
+  text-align: left;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.stats-container h1 {
+  color: var(--main-heading-stats);
+  font-size: 1.3rem;
+}
+.stats-container p {
+  color: var(--stat-headings);
+  font-weight: 100;
+  font-size: 0.6rem;
+}
+
+/* image container */
+.image-container {
+  position: relative;
+  /* border: 1px solid gray; */
+  width: 600px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  background-color: var(--Soft-violet-accent);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--main-heading-stats);
+}
+.attribution a {
+  color: var(--Soft-violet-accent);
+  text-align: center;
+}
