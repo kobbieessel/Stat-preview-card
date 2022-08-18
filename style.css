@@ -39,7 +39,6 @@ main {
 }
 .text-discription {
   margin: 20px;
-  /* border: 1px solid red; */
 }
 .text-discription #main-head {
   color: var(--main-heading-stats);
@@ -52,16 +51,13 @@ span {
   font-size: 2.5rem;
 }
 .text-discription p {
-  /* border: 1px solid white; */
   font-size: 1rem;
   color: var(--main-paragraph);
-  /* padding: 0 20px; */
   margin-bottom: 70px;
   font-weight: 300;
   line-height: 2;
 }
 .stats-container {
-  /* border: 1px solid white; */
   margin: 30px 30px 0 20px;
   text-align: left;
   line-height: 1.2;
@@ -73,6 +69,7 @@ span {
 .stats-container h1 {
   color: var(--main-heading-stats);
   font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 .stats-container p {
   color: var(--stat-headings);
@@ -81,21 +78,17 @@ span {
   letter-spacing: 1px;
 }
 .companies-stat {
-  /* border: 1px solid white; */
   margin-right: 60px;
 }
 .templates-stat {
-  /* border: 1px solid white; */
   margin-right: 60px;
 }
 .queries-stat {
-  /* border: 1px solid white; */
   margin-right: 60px;
 }
 /* image container */
 .image-container {
   position: relative;
-  /* border: 1px solid gray; */
   width: 600px;
 }
 img {
@@ -108,14 +101,13 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.5;
+  opacity: 0.3;
   background-color: var(--Soft-violet-accent);
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
-  /* color: var(--main-heading-stats); */
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
